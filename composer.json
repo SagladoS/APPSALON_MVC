@@ -1,0 +1,23 @@
+{
+    "name": "santi/app-salon_php_mvc_js_sass",
+    "description": "Poryecto PHP 8, MVC, SQL, SASS, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\":"./",
+            "Controllers\\":"./controllers",
+            "Model\\":"./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salgado",
+            "email": "santi80c14@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
